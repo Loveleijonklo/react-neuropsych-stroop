@@ -1,6 +1,6 @@
 {
-  "name": "@Loveleijonklo/react-neuropsych-stroop",
-  "version": "1.2.9",
+  "name": "@loveleijonklo/react-neuropsych-stroop",
+  "version": "0.1.0",
   "description": "React components for stroop test",
   "main": "dist/react-neuropsych-stroop.js",
   "scripts": {
