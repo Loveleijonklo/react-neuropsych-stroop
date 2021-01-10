@@ -1,5 +1,5 @@
 {
-  "name": "@orcatech/react-neuropsych-stroop",
+  "name": "@Loveleijonklo/react-neuropsych-stroop",
   "version": "1.2.9",
   "description": "React components for stroop test",
   "main": "dist/react-neuropsych-stroop.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/orcatechteam/react-neuropsych-stroop.git"
+    "url": "git+https://github.com/Loveleijonklo/react-neuropsych-stroop"
   },
   "publishConfig": {
     "access": "public"
