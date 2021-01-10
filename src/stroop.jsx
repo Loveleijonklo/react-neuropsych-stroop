@@ -166,10 +166,9 @@ class Stroop extends React.Component {
 
 			if (data.color !== data.selectedColor) {
 				this.handleError(data);
-				return;
+			} else {
+				this.handleSuccess(data);
 			}
-
-			this.handleSuccess(data);
 
 			if (nextProgress >= combos.length) {
 				this.handleCompletion();
@@ -186,8 +185,7 @@ class Stroop extends React.Component {
 	handleError = data => {
 		data.type = "Error";
 		this.setState({
-			data: [...this.state.data, data],
-			displayError: true,
+			data: [...this.state.data, data]
 		});
 		if (typeof this.props.onError === 'function') {
 			this.props.onError(data);
@@ -197,8 +195,7 @@ class Stroop extends React.Component {
 	handleSuccess = data => {
 		data.type = "Success";
 		this.setState({
-			data: [...this.state.data, data],
-			displayCorrect: true,
+			data: [...this.state.data, data]
 		});
 		setTimeout(
 			() => {
