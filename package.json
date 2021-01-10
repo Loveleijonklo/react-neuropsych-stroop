@@ -1,10 +1,11 @@
 {
   "name": "@loveleijonklo/react-neuropsych-stroop",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "React components for stroop test",
   "main": "dist/react-neuropsych-stroop.js",
   "scripts": {
-    "test": "webpack --config webpack.config.js --progress --colors"
+    "test": "webpack --config webpack.config.js --progress --colors",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
